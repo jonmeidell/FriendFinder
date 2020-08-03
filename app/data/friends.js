@@ -1,7 +1,7 @@
 module.exports = [
     {
-        "name": "Evan",
-        "photo": "https://en.gravatar.com/userimage/102885512/1a9e02d788d2154e42f449496c2f984f.jpeg",
+        "name": "Animal",
+        "photo": "./app/assets/images/animal.jpg",
         "scores": [
             5,
             3,
@@ -16,8 +16,8 @@ module.exports = [
         ]
     },
     {
-        "name": "George",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Beaker",
+        "photo": "./app/assets/images/beaker.jpg",
         "scores": [
             5,
             1,
@@ -32,8 +32,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Hector",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Bunsen",
+        "photo": "./app/assets/images/bunsen.jpg",
         "scores": [
             3,
             2,
@@ -48,8 +48,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Fred",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Dr. Teeth",
+        "photo": "./app/assets/images/drteeth.jpg",
         "scores": [
             5,
             6,
@@ -64,8 +64,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Velma",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Floyd",
+        "photo": "./app/assets/images/floyd.jpg",
         "scores": [
             2,
             1,
@@ -80,8 +80,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Sarah",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Fozzie",
+        "photo": "./app/assets/images/fozzie.jpg",
         "scores": [
             5,
             1,
@@ -96,8 +96,8 @@ module.exports = [
         ]
     },
     {
-        "name": "Jiminez",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Kermit the Frog",
+        "photo": "./app/assets/images/Kermit.webp",
         "scores": [
             5,
             1,
@@ -111,5 +111,52 @@ module.exports = [
             2
         ]
     },
-
+    {
+        "name": "Ms. Piggy",
+        "photo": "./app/assets/images/piggy.jpg",
+        "scores": [
+            4,
+            3,
+            6,
+            1,
+            5,
+            2,
+            3,
+            5,
+            2,
+            6
+        ]
+    },
+    {
+        "name": "Scooter",
+        "photo": "./app/assets/images/scooter.jpg",
+        "scores": [
+            5,
+            3,
+            6,
+            2,
+            1,
+            4,
+            3,
+            4,
+            1,
+            2
+        ]
+    },
+    {
+        "name": "Swedish Chef",
+        "photo": "./app/assets/images/swedish.jpg",
+        "scores": [
+            3,
+            4,
+            4,
+            1,
+            3,
+            3,
+            2,
+            3,
+            2,
+            3
+        ]
+    },
 ]
