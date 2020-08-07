@@ -237,8 +237,8 @@
 
 				$.post("/api/friends", formData, function (data) {
 					console.log("data", data);
-					$("#rec-name").html(data.friend.name);
-					$("#rec-image").attr("src", data.friend.photo);
+					$("#rec-name").html(data.name);
+					$("#rec-image").attr("src", data.photo);
 					$('#recommended').modal();
 				});
 			});

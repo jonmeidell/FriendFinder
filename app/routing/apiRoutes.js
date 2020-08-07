@@ -1,16 +1,16 @@
 const Express = require("express");
 const router = Express.Router();
-const data = require("../data/friends");
+const friends = require("../data/friends");
 
 module.exports = router
 
 router.get("/friends", (req, res) => {
-    res.json(data)
+    res.json(friends)
 });
 router.post("/friends", (req, res) => {
     console.log(req.body)
-    data.push(req.body)
-    res.json(data)
+    friends.push(req.body)
+    res.json(friends)
     let returnSurvey = {
         name: req.body.name,
         photo: req.body.photo,
@@ -29,8 +29,9 @@ router.post("/friends", (req, res) => {
     }
     const result = [];
     for (let i = 0; i < friends.length; i++) {
-        const friend = friends[i];
-        const friendScores = friend.scores;
+        const me = friends[i];
+        console.log(me)
+        const friendScores = me.scores;
         const differences = [];
 
         for (let i = 0; i < friendScores.length; i++) {
@@ -40,7 +41,7 @@ router.post("/friends", (req, res) => {
 
         var difference = differences.reduce((a, b) => a + b, 0);
         result.push({
-            friend: friend,
+            me: me,
             difference: difference
         });
 
