@@ -8,7 +8,7 @@ router.get("/friends", (req, res) => {
     res.json(friends)
 });
 router.post("/friends", (req, res) => {
-    console.log(req.body)
+    //console.log(req.body.question1 + "req.body")
     friends.push(req.body)
     res.json(friends)
     let returnSurvey = {
@@ -27,11 +27,12 @@ router.post("/friends", (req, res) => {
             parseInt(req.body.question10),
         ]
     }
+    console.log(returnSurvey + "returnSurvey");
     const result = [];
     for (let i = 0; i < friends.length; i++) {
         const me = friends[i];
-        console.log(me)
-        const friendScores = me.scores;
+        const friendScores = returnSurvey.scores;
+        console.log(returnSurvey + "returnSurvey2")
         const differences = [];
 
         for (let i = 0; i < friendScores.length; i++) {

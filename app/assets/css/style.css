@@ -24,3 +24,8 @@ body {
     border-width: 1px;
     color: black;
 }
+
+.survey-box {
+    background-color: #ad99a1;
+    border-radius: 3px;
+}
