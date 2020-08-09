@@ -7,15 +7,6 @@ body {
     background-size: cover;
 }
 
-.jumbotron {
-    background-color: aliceblue;
-    margin-top: 10px;
-    border: solid;
-    border-radius: 3px;
-    border-width: 1px;
-    color: black;
-}
-
 .friends-list {
     background-color: aliceblue;
     padding: 3px;
@@ -23,6 +14,28 @@ body {
     border-radius: 3px;
     border-width: 1px;
     color: black;
+    box-shadow: 1px 1px 3px 1px #929292;
+}
+
+.go-home {
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 3px;
+    border: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    color: black;
+    box-shadow: 1px 1px 3px 1px #929292;
+}
+
+.jumbotron {
+    background-color: aliceblue;
+    margin-top: 10px;
+    border: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    color: black;
+    box-shadow: 1px 1px 3px 1px #929292;
 }
 
 .survey-box {
