@@ -16,3 +16,6 @@ This app compares the answers you that you enter in, does a comparison to all of
 * _Express.js_
 * _Routing_
 * _Postman_
+
+### `Improvements to be made:`
+* _Results not showing properly._
